@@ -1,0 +1,14 @@
+{
+  "name": "mtgicons",
+  "version": "0.0.1",
+  "authors": [
+    "Jeremy Ninnes"
+  ],
+  "description": "Mtg icon library",
+  "keywords": [
+    "icons",
+    "mtg"
+  ],
+  "license": "BSD",
+  "private": true
+}
