@@ -1,16 +1,16 @@
 @font-face {
-	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?6y1qae');
-	src:url('fonts/icomoon.eot?#iefix6y1qae') format('embedded-opentype'),
-		url('fonts/icomoon.woff?6y1qae') format('woff'),
-		url('fonts/icomoon.ttf?6y1qae') format('truetype'),
-		url('fonts/icomoon.svg?6y1qae#icomoon') format('svg');
+	font-family: 'mtgicons';
+	src:url('fonts/mtgicons.eot?6y1qae');
+	src:url('fonts/mtgicons.eot?#iefix6y1qae') format('embedded-opentype'),
+		url('fonts/mtgicons.woff?6y1qae') format('woff'),
+		url('fonts/mtgicons.ttf?6y1qae') format('truetype'),
+		url('fonts/mtgicons.svg?6y1qae#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-i {
-	font-family: 'icomoon';
+.mtg {
+	font-family: 'mtgicons';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -23,11 +23,11 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.tap-revised .path1:before {
+.tap-revised:before, .tap-3rd:before {
 	content: "\e61e";
 	color: rgb(201, 196, 190);
 }
-.tap-revised .path2:before {
+.tap-revised:after, .tap-3rd:after{
 	content: "\e61f";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
@@ -451,51 +451,51 @@ i {
 	color: rgb(13, 15, 15);
 }
 
-.mana-w .path1:before {
+.white:before, .mana-w:before {
 	content: "\e65c";
 	color: rgb(248, 246, 216);
 }
-.mana-w .path2:before {
+.white:after, .mana-w:after {
 	content: "\e65d";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-u .path1:before {
+.blue:before, .mana-u:before {
 	content: "\e65e";
 	color: rgb(193, 215, 233);
 }
-.mana-u .path2:before {
+.blue:after, .mana-u:after {
 	content: "\e65f";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-b .path1:before {
+.black:before , .mana-b:before{
 	content: "\e660";
 	color: rgb(186, 177, 171);
 }
-.mana-b .path2:before {
+.black:after, .mana-b:after  {
 	content: "\e661";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.red .path1:before {
+.red:before, .mana-r:before {
 	content: "\e662";
 	color: rgb(228, 153, 119);
 }
-.red .path2:before {
+.red:after, .mana-r:after  {
 	content: "\e663";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.g .path1:before {
+.green:before , .mana-g:before{
 	content: "\e664";
 	color: rgb(163, 192, 149);
 }
-.g .path2:before {
+.green:after, .mana-g:after  {
 	content: "\e665";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
@@ -546,241 +546,241 @@ i {
 	color: rgb(255, 255, 255);
 }
 
-.mana-zero .path1:before {
+.mana-0:before {
 	content: "\e604";
 	color: rgb(202, 197, 192);
 }
-.mana-zero .path2:before {
+.mana-0:after {
 	content: "\e605";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-one .path1:before {
+.mana-1:before {
 	content: "\e606";
 	color: rgb(202, 197, 192);
 }
-.mana-one .path2:before {
+.mana-1:after {
 	content: "\e607";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.two .path1:before {
+.mana-2:before {
 	content: "\e61c";
 	color: rgb(202, 197, 192);
 }
-.two .path2:before {
+.mana-2:after {
 	content: "\e61d";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-3 .path1:before {
+.mana-3:before {
 	content: "\e66f";
 	color: rgb(202, 197, 192);
 }
-.mana-3 .path2:before {
+.mana-3:after {
 	content: "\e670";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-4 .path1:before {
+.mana-4:before {
 	content: "\e671";
 	color: rgb(202, 197, 192);
 }
-.mana-4 .path2:before {
+.mana-4:after {
 	content: "\e672";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-5 .path1:before {
+.mana-5:before {
 	content: "\e673";
 	color: rgb(202, 197, 192);
 }
-.mana-5 .path2:before {
+.mana-5:after {
 	content: "\e674";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-6 .path1:before {
+.mana-6:before {
 	content: "\e675";
 	color: rgb(202, 197, 192);
 }
-.mana-6 .path2:before {
+.mana-6:after {
 	content: "\e676";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-7 .path1:before {
+.mana-7:before {
 	content: "\e677";
 	color: rgb(202, 197, 192);
 }
-.mana-7 .path2:before {
+.mana-7:after {
 	content: "\e678";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-eight .path1:before {
+.mana-8:before {
 	content: "\e679";
 	color: rgb(202, 197, 192);
 }
-.mana-eight .path2:before {
+.mana-8:after {
 	content: "\e67a";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-9 .path1:before {
+.mana-9:before {
 	content: "\e67b";
 	color: rgb(202, 197, 192);
 }
-.mana-9 .path2:before {
+.mana-9:after {
 	content: "\e67c";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-10 .path1:before {
+.mana-10:before {
 	content: "\e67d";
 	color: rgb(202, 197, 192);
 }
-.mana-10 .path2:before {
+.mana-10:after {
 	content: "\e67e";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-11 .path1:before {
+.mana-11:before {
 	content: "\e67f";
 	color: rgb(202, 197, 192);
 }
-.mana-11 .path2:before {
+.mana-11:after {
 	content: "\e680";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-12 .path1:before {
+.mana-12:before {
 	content: "\e681";
 	color: rgb(202, 197, 192);
 }
-.mana-12 .path2:before {
+.mana-12:after {
 	content: "\e682";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-13 .path1:before {
+.mana-13:before {
 	content: "\e683";
 	color: rgb(202, 197, 192);
 }
-.mana-13 .path2:before {
+.mana-13:after {
 	content: "\e684";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-14 .path1:before {
+.mana-14:before {
 	content: "\e685";
 	color: rgb(202, 197, 192);
 }
-.mana-14 .path2:before {
+.mana-14:after {
 	content: "\e686";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-15 .path1:before {
+.mana-15:before {
 	content: "\e687";
 	color: rgb(202, 197, 192);
 }
-.mana-15 .path2:before {
+.mana-15:after {
 	content: "\e688";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-16 .path1:before {
+.mana-16:before {
 	content: "\e689";
 	color: rgb(202, 197, 192);
 }
-.mana-16 .path2:before {
+.mana-16:after {
 	content: "\e68a";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-17 .path1:before {
+.mana-17:before {
 	content: "\e68b";
 	color: rgb(202, 197, 192);
 }
-.mana-17 .path2:before {
+.mana-17:after {
 	content: "\e68c";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-18 .path1:before {
+.mana-18:before {
 	content: "\e68d";
 	color: rgb(202, 197, 192);
 }
-.mana-18 .path2:before {
+.mana-18:after {
 	content: "\e68e";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-19 .path1:before {
+.mana-19:before {
 	content: "\e68f";
 	color: rgb(202, 197, 192);
 }
-.mana-19 .path2:before {
+.mana-19:after {
 	content: "\e690";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-20 .path1:before {
+.mana-20:before {
 	content: "\e691";
 	color: rgb(202, 197, 192);
 }
-.mana-20 .path2:before {
+.mana-20:after {
 	content: "\e692";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-x .path1:before {
+.mana-x:before {
 	content: "\e693";
 	color: rgb(202, 197, 192);
 }
-.mana-x .path2:before {
+.mana-x:after {
 	content: "\e694";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-y .path1:before {
+.mana-y:before {
 	content: "\e695";
 	color: rgb(201, 196, 190);
 }
-.mana-y .path2:before {
+.mana-y:after {
 	content: "\e696";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.mana-z .path1:before {
+.mana-z:before {
 	content: "\e697";
 	color: rgb(201, 196, 190);
 }
-.mana-z .path2:before {
+.mana-z:after {
 	content: "\e698";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
