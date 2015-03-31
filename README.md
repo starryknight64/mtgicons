@@ -12,7 +12,7 @@ Hybrids
 	<i class="mtg hybrid"><span class="white"></span><span class="blue"></span></i>
 	<i class="mtg hybrid"><span class="mana-2"></span><span class="red"></span></i>
 
-See http://htmlpreview.github.com/?https://github.com/jninnes/mtgicons/blob/master/demo.html 
+See http://htmlpreview.github.io/?https://github.com/jninnes/mtgicons/blob/master/demo.html 
 
 # Contributions
 
