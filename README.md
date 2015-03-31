@@ -14,6 +14,12 @@ Hybrids
 
 See https://cdn.rawgit.com/jninnes/mtgicons/master/demo.html
 
+# Building from source
+
+Requires Node.js, uses NPM to run the build
+
+  npm run build
+
 # Contributions
 
 Many thanks to BaconCatBug for the original SVG icons that have been used here.

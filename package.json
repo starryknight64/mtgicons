@@ -5,10 +5,12 @@
     "cssmin": "latest"
   },
   "scripts": {
-    "less": "lessc src/mtgicons.less > dist/mtgicons.css",
-    "build": "npm run less"
+    "deploy:assets": "cp -rf src/fonts/ dist/fonts/",
+    "build:less": "lessc src/mtgicons.less | cssmin > dist/mtgicons.css",
+    "build": "npm install && npm run build:less && npm run deploy:assets"
   },
   "dependencies": {
     
-  }
+  },
+  "repository": "https://github.com/jninnes/mtgicons"
 }

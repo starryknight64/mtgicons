@@ -25,9 +25,39 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.white-background {
+  content: "\e62b";
+	color: rgb(248, 246, 216);
+}
+
+.blue-background {
+  content: "\e65e";
+	color: rgb(193, 215, 233);
+}
+
+.black-background {
+  content: "\e62f";
+	color: rgb(186, 177, 171);
+}
+
+.red-background {
+  content: "\e662";
+	color: rgb(228, 153, 119);
+}
+
+.green-background {
+  content: "\e633";
+	color: rgb(163, 192, 149);
+}
+
+
+.colorless-background {
+  content: "\e636";
+	color: rgb(202, 197, 192);
+}
+
 .tap-revised:before, .tap-3rd:before {
-	content: "\e61e";
-	color: rgb(201, 196, 190);
+	.colorless-background;
 }
 .tap-revised:after, .tap-3rd:after{
 	content: "\e61f";
@@ -90,8 +120,7 @@
 }
 
 .phyrexian-w:before {
-	content: "\e62b";
-	color: rgb(248, 246, 216);
+	.white-background;
 }
 .phyrexian-w:after {
 	content: "\e62c";
@@ -100,8 +129,7 @@
 }
 
 .phyrexian-u:before {
-	content: "\e62d";
-	color: rgb(193, 215, 233);
+	.blue-background;
 }
 .phyrexian-u:after {
 	content: "\e62e";
@@ -110,8 +138,7 @@
 }
 
 .phyrexian-b:before {
-	content: "\e62f";
-	color: rgb(186, 177, 171);
+	.black-background;
 }
 .phyrexian-b:after {
 	content: "\e630";
@@ -120,8 +147,7 @@
 }
 
 .phyrexian-r:before {
-	content: "\e631";
-	color: rgb(228, 153, 119);
+	.red-background;
 }
 .phyrexian-r:after {
 	content: "\e632";
@@ -130,8 +156,7 @@
 }
 
 .phyrexian-g:before {
-	content: "\e633";
-	color: rgb(163, 192, 149);
+	.green-background;
 }
 .phyrexian-g:after {
 	content: "\e634";
@@ -144,8 +169,7 @@
 }
 
 .phyrexian-colorless:before {
-	content: "\e636";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .phyrexian-colorless:after {
 	content: "\e637";
@@ -273,8 +297,7 @@
 }
 
 .white:before, .mana-w:before {
-	content: "\e65c";
-	color: rgb(248, 246, 216);
+	.white-background;
 }
 .white:after, .mana-w:after {
 	content: "\e65d";
@@ -283,8 +306,7 @@
 }
 
 .blue:before, .mana-u:before {
-	content: "\e65e";
-	color: rgb(193, 215, 233);
+	.blue-background;
 }
 .blue:after, .mana-u:after {
 	content: "\e65f";
@@ -293,8 +315,7 @@
 }
 
 .black:before , .mana-b:before{
-	content: "\e660";
-	color: rgb(186, 177, 171);
+	.black-background;
 }
 .black:after, .mana-b:after  {
 	content: "\e661";
@@ -303,8 +324,7 @@
 }
 
 .red:before, .mana-r:before {
-	content: "\e662";
-	color: rgb(228, 153, 119);
+	.red-background;
 }
 .red:after, .mana-r:after  {
 	content: "\e663";
@@ -313,8 +333,7 @@
 }
 
 .green:before , .mana-g:before{
-	content: "\e664";
-	color: rgb(163, 192, 149);
+	.green-background;
 }
 .green:after, .mana-g:after  {
 	content: "\e665";
@@ -368,8 +387,7 @@
 }
 
 .mana-0:before {
-	content: "\e604";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-0:after {
 	content: "\e605";
@@ -378,8 +396,7 @@
 }
 
 .mana-1:before {
-	content: "\e606";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-1:after {
 	content: "\e607";
@@ -388,8 +405,7 @@
 }
 
 .mana-2:before {
-	content: "\e61c";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-2:after {
 	content: "\e61d";
@@ -398,8 +414,7 @@
 }
 
 .mana-3:before {
-	content: "\e66f";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-3:after {
 	content: "\e670";
@@ -408,8 +423,7 @@
 }
 
 .mana-4:before {
-	content: "\e671";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-4:after {
 	content: "\e672";
@@ -418,8 +432,7 @@
 }
 
 .mana-5:before {
-	content: "\e673";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-5:after {
 	content: "\e674";
@@ -428,8 +441,7 @@
 }
 
 .mana-6:before {
-	content: "\e675";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-6:after {
 	content: "\e676";
@@ -438,8 +450,7 @@
 }
 
 .mana-7:before {
-	content: "\e677";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-7:after {
 	content: "\e678";
@@ -448,8 +459,7 @@
 }
 
 .mana-8:before {
-	content: "\e679";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-8:after {
 	content: "\e67a";
@@ -458,8 +468,7 @@
 }
 
 .mana-9:before {
-	content: "\e67b";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-9:after {
 	content: "\e67c";
@@ -468,8 +477,7 @@
 }
 
 .mana-10:before {
-	content: "\e67d";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-10:after {
 	content: "\e67e";
@@ -478,8 +486,7 @@
 }
 
 .mana-11:before {
-	content: "\e67f";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-11:after {
 	content: "\e680";
@@ -488,8 +495,7 @@
 }
 
 .mana-12:before {
-	content: "\e681";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-12:after {
 	content: "\e682";
@@ -498,8 +504,7 @@
 }
 
 .mana-13:before {
-	content: "\e683";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-13:after {
 	content: "\e684";
@@ -508,8 +513,7 @@
 }
 
 .mana-14:before {
-	content: "\e685";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-14:after {
 	content: "\e686";
@@ -518,8 +522,7 @@
 }
 
 .mana-15:before {
-	content: "\e687";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-15:after {
 	content: "\e688";
@@ -528,8 +531,7 @@
 }
 
 .mana-16:before {
-	content: "\e689";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-16:after {
 	content: "\e68a";
@@ -538,8 +540,7 @@
 }
 
 .mana-17:before {
-	content: "\e68b";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-17:after {
 	content: "\e68c";
@@ -548,8 +549,7 @@
 }
 
 .mana-18:before {
-	content: "\e68d";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-18:after {
 	content: "\e68e";
@@ -558,8 +558,7 @@
 }
 
 .mana-19:before {
-	content: "\e68f";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-19:after {
 	content: "\e690";
@@ -568,8 +567,7 @@
 }
 
 .mana-20:before {
-	content: "\e691";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-20:after {
 	content: "\e692";
@@ -578,8 +576,7 @@
 }
 
 .mana-x:before {
-	content: "\e693";
-	color: rgb(202, 197, 192);
+	.colorless-background;
 }
 .mana-x:after {
 	content: "\e694";
@@ -588,8 +585,7 @@
 }
 
 .mana-y:before {
-	content: "\e695";
-	color: rgb(201, 196, 190);
+	.colorless-background;
 }
 .mana-y:after {
 	content: "\e696";
@@ -598,8 +594,7 @@
 }
 
 .mana-z:before {
-	content: "\e697";
-	color: rgb(201, 196, 190);
+	.colorless-background;
 }
 .mana-z:after {
 	content: "\e698";
