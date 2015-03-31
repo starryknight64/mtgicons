@@ -1,1 +1,20 @@
 # mtgicons
+
+An adaption of the mtg icons as a vector font for use in webapps, websites, etc. All original icons are trademarks of Wizards of the Coast. Using these icons should be within the Wizard's Fan Site Policy <link>
+
+# Usage
+
+	<i class="mtg mana-w"></i>
+
+See demo.html 
+
+# Contributions
+
+Many thanks to BaconCatBug for the original SVG icons that have been used here.
+
+
+
+
+#TODO
+
+- make all icons available with one class each and not depend on HTML structure.

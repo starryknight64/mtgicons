@@ -147,105 +147,123 @@
 	color: rgb(17, 18, 18);
 }
 
-.uw .path1:before {
-	content: "\e600";
-	color: rgb(193, 215, 233);
-}
-.uw .path2:before {
+.hybrid .white:first-child:before {
 	content: "\e601";
-	margin-left: -1em;
 	color: rgb(248, 246, 216);
 }
-.uw .path3:before {
-	content: "\e602";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-.uw .path4:before {
+.hybrid .white:first-child:after {
 	content: "\e603";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.bw .path1:before {
-	content: "\e608";
-	color: rgb(186, 177, 171);
-}
-.bw .path2:before {
-	content: "\e609";
-	margin-left: -1em;
+
+.hybrid .white:last-child:before {
+	content: "\e640";
 	color: rgb(248, 246, 216);
-}
-.bw .path3:before {
-	content: "\e60a";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-.bw .path4:before {
-	content: "\e60b";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
 }
 
-.ub .path1:before {
-	content: "\e60c";
-	color: rgb(186, 177, 171);
-}
-.ub .path2:before {
-	content: "\e60d";
+.hybrid .white:last-child:after {
+	content: "\e642";
 	margin-left: -1em;
+	color: rgb(13, 15, 15);
+}
+.hybrid .blue:first-child:before {
+	content: "\e60d";
 	color: rgb(193, 215, 233);
 }
-.ub .path3:before {
+.hybrid .blue:first-child:after {
 	content: "\e60e";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
-.ub .path4:before {
+
+
+.hybrid .blue:last-child:before {
+	content: "\e600";
+	margin-left: -1em;
+	color: rgb(193, 215, 233);
+}
+
+.hybrid .blue:last-child:after {
+	content: "\e602";
+	margin-left: -1em;
+	color: rgb(13, 15, 15);
+}
+.hybrid .black:first-child:before {
+	content: "\e615";
+	color: rgb(186, 177, 171);
+}
+
+.hybrid .black:first-child:after {
+	content: "\e617";
+	margin-left: -1em;
+	color: rgb(13, 15, 15);
+}
+
+.hybrid .black:last-child:before {
+	content: "\e60c";
+	margin-left: -1em;
+	color: rgb(186, 177, 171);
+}
+.hybrid .black:last-child:after {
 	content: "\e60f";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
-.ur .path1:before {
-	content: "\e610";
+.hybrid .red:first-child:before {
+	content: "\e63d";
 	color: rgb(228, 153, 119);
 }
-.ur .path2:before {
-	content: "\e611";
+.hybrid .red:first-child:after{
+	content: "\e63f";
 	margin-left: -1em;
-	color: rgb(193, 215, 233);
+	color: rgb(13, 15, 15);
 }
-.ur .path3:before {
+.hybrid .red:last-child:before {
+	content: "\e610";
+	margin-left: -1em;
+	color: rgb(228, 153, 119);
+}
+.hybrid .red:last-child:after {
 	content: "\e612";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
-.ur .path4:before {
-	content: "\e613";
+
+.hybrid .green:first-child:before {
+	content: "\e641";
+	color: rgb(163, 192, 149);
+}
+.hybrid .green:first-child:after {
+	content: "\e643";
+	margin-left: -1em;
+	color: rgb(13, 15, 15);
+}
+.hybrid .green:last-child:before {
+	content: "\e618";
+	margin-left: -1em;
+	color: rgb(163, 192, 149);
+}
+.hybrid .green:last-child:after {
+	content: "\e63b";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
 
+
 .br .path1:before {
 	content: "\e614";
 	color: rgb(228, 153, 119);
-}
-.br .path2:before {
-	content: "\e615";
-	margin-left: -1em;
-	color: rgb(186, 177, 171);
 }
 .br .path3:before {
 	content: "\e616";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
-.br .path4:before {
-	content: "\e617";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
+
 
 .gb .path1:before {
 	content: "\e618";
@@ -271,18 +289,9 @@
 	content: "\e638";
 	color: rgb(163, 192, 149);
 }
-.gr .path2:before {
-	content: "\e639";
-	margin-left: -1em;
-	color: rgb(228, 153, 119);
-}
+
 .gr .path3:before {
 	content: "\e63a";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-.gr .path4:before {
-	content: "\e63b";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
@@ -291,41 +300,12 @@
 	content: "\e63c";
 	color: rgb(248, 246, 216);
 }
-.rw .path2:before {
-	content: "\e63d";
-	margin-left: -1em;
-	color: rgb(228, 153, 119);
-}
 .rw .path3:before {
 	content: "\e63e";
 	margin-left: -1em;
 	color: rgb(13, 15, 15);
 }
-.rw .path4:before {
-	content: "\e63f";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
 
-.gw .path1:before {
-	content: "\e640";
-	color: rgb(248, 246, 216);
-}
-.gw .path2:before {
-	content: "\e641";
-	margin-left: -1em;
-	color: rgb(163, 192, 149);
-}
-.gw .path3:before {
-	content: "\e642";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-.gw .path4:before {
-	content: "\e643";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
 
 .ug .path1:before {
 	content: "\e644";
