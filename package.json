@@ -1,0 +1,14 @@
+{
+  "name": "mtgicons",
+  "devDependencies": {
+    "less": "latest",
+    "cssmin": "latest"
+  },
+  "scripts": {
+    "less": "lessc src/mtgicons.less > dist/mtgicons.css",
+    "build": "npm run less"
+  },
+  "dependencies": {
+    
+  }
+}

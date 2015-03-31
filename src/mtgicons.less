@@ -1,3 +1,5 @@
+@mana-white: rgb(248, 246, 216);
+
 @font-face {
 	font-family: 'mtgicons';
 	src:url('fonts/mtgicons.eot?6y1qae');
@@ -63,24 +65,28 @@
 	color: rgb(0, 0, 0);
 }
 
-.tap:before {
-	content: "\e627";
-	color: rgb(202, 197, 192);
-}
-.tap:after {
-	content: "\e628";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
+.tap {
+  &:before {
+    content: "\e627";
+    color: rgb(202, 197, 192);
+  }
+  &:after {
+    content: "\e628";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
 }
 
-.untap:before {
-	content: "\e629";
-	color: rgb(13, 15, 15);
-}
-.untap:after {
-	content: "\e62a";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
+.untap{
+  &:before {
+    content: "\e629";
+    color: rgb(13, 15, 15);
+  }
+  &:after {
+    content: "\e62a";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
 }
 
 .phyrexian-w:before {
@@ -147,123 +153,124 @@
 	color: rgb(17, 18, 18);
 }
 
-.hybrid .white:first-child:before {
-	content: "\e601";
-	color: rgb(248, 246, 216);
-}
-.hybrid .white:first-child:after {
-	content: "\e603";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
+.hybrid {
+
+  .white:first-child:before {
+    content: "\e601";
+    color: rgb(248, 246, 216);
+  }
+  .white:first-child:after {
+    content: "\e603";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
+
+  .white:last-child:before {
+    content: "\e640";
+    color: rgb(248, 246, 216);
+    margin-left: -1em;
+  }
+
+  .white:last-child:after {
+    content: "\e642";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
+  .blue:first-child:before {
+    content: "\e60d";
+    color: rgb(193, 215, 233);
+  }
+  .blue:first-child:after {
+    content: "\e60e";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
 
 
-.hybrid .white:last-child:before {
-	content: "\e640";
-	color: rgb(248, 246, 216);
-	margin-left: -1em;
-}
+  .blue:last-child:before {
+    content: "\e600";
+    margin-left: -1em;
+    color: rgb(193, 215, 233);
+  }
 
-.hybrid .white:last-child:after {
-	content: "\e642";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-.hybrid .blue:first-child:before {
-	content: "\e60d";
-	color: rgb(193, 215, 233);
-}
-.hybrid .blue:first-child:after {
-	content: "\e60e";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
+  .blue:last-child:after {
+    content: "\e602";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
+  .black:first-child:before {
+    content: "\e615";
+    color: rgb(186, 177, 171);
+  }
 
+  .black:first-child:after {
+    content: "\e617";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
 
-.hybrid .blue:last-child:before {
-	content: "\e600";
-	margin-left: -1em;
-	color: rgb(193, 215, 233);
-}
+  .black:last-child:before {
+    content: "\e60c";
+    margin-left: -1em;
+    color: rgb(186, 177, 171);
+  }
+  .black:last-child:after {
+    content: "\e60f";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
 
-.hybrid .blue:last-child:after {
-	content: "\e602";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-.hybrid .black:first-child:before {
-	content: "\e615";
-	color: rgb(186, 177, 171);
-}
+  .red:first-child:before {
+    content: "\e63d";
+    color: rgb(228, 153, 119);
+  }
+  .red:first-child:after{
+    content: "\e63f";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
+  .red:last-child:before {
+    content: "\e610";
+    margin-left: -1em;
+    color: rgb(228, 153, 119);
+  }
+  .red:last-child:after {
+    content: "\e612";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
 
-.hybrid .black:first-child:after {
-	content: "\e617";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-
-.hybrid .black:last-child:before {
-	content: "\e60c";
-	margin-left: -1em;
-	color: rgb(186, 177, 171);
-}
-.hybrid .black:last-child:after {
-	content: "\e60f";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-
-.hybrid .red:first-child:before {
-	content: "\e63d";
-	color: rgb(228, 153, 119);
-}
-.hybrid .red:first-child:after{
-	content: "\e63f";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-.hybrid .red:last-child:before {
-	content: "\e610";
-	margin-left: -1em;
-	color: rgb(228, 153, 119);
-}
-.hybrid .red:last-child:after {
-	content: "\e612";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-
-.hybrid .green:first-child:before {
-	content: "\e641";
-	color: rgb(163, 192, 149);
-}
-.hybrid .green:first-child:after {
-	content: "\e643";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-.hybrid .green:last-child:before {
-	content: "\e618";
-	margin-left: -1em;
-	color: rgb(163, 192, 149);
-}
-.hybrid .green:last-child:after {
-	content: "\e63b";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
+  .green:first-child:before {
+    content: "\e641";
+    color: rgb(163, 192, 149);
+  }
+  .green:first-child:after {
+    content: "\e643";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
+  .green:last-child:before {
+    content: "\e618";
+    margin-left: -1em;
+    color: rgb(163, 192, 149);
+  }
+  .green:last-child:after {
+    content: "\e63b";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
 
 
-.hybrid .mana-2:first-child:before {
-	content: "\e651";
-	color: rgb(202, 197, 192);
+  .mana-2:first-child:before {
+    content: "\e651";
+    color: rgb(202, 197, 192);
+  }
+  .mana-2:first-child:after {
+    content: "\e652";
+    margin-left: -1em;
+    color: rgb(13, 15, 15);
+  }
 }
-.hybrid .mana-2:first-child:after {
-	content: "\e652";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-
 
 .white:before, .mana-w:before {
 	content: "\e65c";
