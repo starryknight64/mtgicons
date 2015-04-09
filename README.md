@@ -25,9 +25,3 @@ Requires Node.js, uses NPM to run the build
 
 Many thanks to BaconCatBug for the original SVG icons that have been used here.
 
-
-
-
-# TODO
-
-- make all icons available with one class each and not depend on HTML structure.

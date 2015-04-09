@@ -11,6 +11,11 @@ h1 {
 	font-size: 1.5em;
 	font-weight: normal;
 }
+h2 {
+  float:left;
+  display:block;
+  width:100%;
+}
 small {
 	font-size: .66666667em;
 }
@@ -149,3 +154,4 @@ p {
 .code {
   font-family:Consolas, fixed;
 }
+
