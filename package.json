@@ -12,7 +12,7 @@
   "scripts": {
     "build": "npm install && npm run build:less && npm run deploy:assets",
     "build:less": "lessc src/mtgicons.less | cssmin > dist/mtgicons.css",
-    "deploy:assets": "cp -rf src/fonts/ dist/fonts/",
+    "deploy:assets": "cp -rf src/fonts/ dist/",
     "watch": "nodemon --watch src --exec \"npm run build\"",
     "watch:less": "nodemon --watch src --exec \"npm run build:less\""
   },
