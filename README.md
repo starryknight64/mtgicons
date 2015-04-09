@@ -16,10 +16,11 @@ See https://cdn.rawgit.com/jninnes/mtgicons/master/demo.html
 
 Requires Node.js, uses NPM to run the build
 
-  // run the build
-  npm run build
-  // run the build, and rebuild the less file on change
-  npm run watch
+	// run the build
+	npm run build
+  
+	// run the build, and rebuild the less file on change
+	npm run watch
 
 # Contributions
 
