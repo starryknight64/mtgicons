@@ -10,7 +10,7 @@ An adaption of the mtg icons as a vector font for use in webapps, websites, etc.
   <i class="mtg hybrid-2g"></i>
   <i class="mtg tap"></i>
 
-See https://cdn.rawgit.com/jninnes/mtgicons/master/demo.html
+See https://cdn.rawgit.com/jninnes/mtgicons/master/demo/demo.html
 
 # Building from source
 
