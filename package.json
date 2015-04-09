@@ -2,13 +2,21 @@
   "name": "mtgicons",
   "devDependencies": {
     "less": "latest",
-    "cssmin": "latest"
+    "cssmin": "latest",
+    "nodemon":"latest"
+  },
+  "watch": {
+    "build-less": "src/*.less",
+    "deploy-assets": "src/fonts/*"
   },
   "scripts": {
-    "deploy:assets": "cp -rf src/fonts/ dist/fonts/",
+    "build": "npm install && npm run build:less && npm run deploy:assets",
     "build:less": "lessc src/mtgicons.less | cssmin > dist/mtgicons.css",
-    "build": "npm install && npm run build:less && npm run deploy:assets"
+    "deploy:assets": "cp -rf src/fonts/ dist/fonts/",
+    "watch": "nodemon --watch src --exec \"npm run build\"",
+    "watch:less": "nodemon --watch src --exec \"npm run build:less\""
   },
+  
   "dependencies": {
     
   },

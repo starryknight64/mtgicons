@@ -1,4 +1,10 @@
 @mana-white: rgb(248, 246, 216);
+@mana-blue: rgb(193, 215, 233);
+@mana-black: rgb(186, 177, 171);
+@mana-red: rgb(228, 153, 119);
+@mana-green: rgb(163, 192, 149);
+@mana-colorless: rgb(201, 196, 190);
+@mana-font-black: rgb(13, 15, 15);
 
 @font-face {
 	font-family: 'mtgicons';
@@ -27,53 +33,53 @@
 
 .white-background, .white-background:before{
   content: "\e62b";
-	color: rgb(248, 246, 216);
+	color: @mana-white;
 }
 
 .blue-background, .blue-background:before {
   content: "\e65e";
-	color: rgb(193, 215, 233);
+	color: @mana-blue;
 }
 
 .black-background, .black-background:before {
   content: "\e62f";
-	color: rgb(186, 177, 171);
+	color: @mana-black;
 }
 
 .red-background, .red-background:before {
   content: "\e662";
-	color: rgb(228, 153, 119);
+	color: @mana-red;
 }
 
 .green-background, .green-background:before {
   content: "\e633";
-	color: rgb(163, 192, 149);
+	color: @mana-green;
 }
 
 
 .plains, .plains:before {
   content: "\e65d";
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .island, .island:before {
   content: "\e65f";
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .swamp, .swamp:before {
   content: "\e661";
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mountain, .mountain:before {
   content: "\e663";
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .forest, .forest:before {
   content: "\e665";
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .colorless-background {
@@ -87,39 +93,37 @@
 .tap-revised:after, .tap-3rd:after{
 	content: "\e61f";
 	margin-left: -1.5em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
-.tap-8th .path1:before {
-	content: "\e621";
-	color: rgb(201, 196, 190);
-}
-.tap-8th .path2:before {
-	content: "\e622";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-.tap-8th .path3:before {
-	content: "\e623";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
+.tap-8th {
+	border-radius:1em;
+	background-color: @mana-colorless;
+  &:before {
+    content: "\e622";
+    color: @mana-font-black;
+  }
+  &:after {
+    content: "\e623";
+    margin-left: -1.5em;
+    color: rgb(255, 255, 255);
+
+  }
 }
 
-.untap-8th .path1:before {
-	content: "\e624";
-	color: rgb(201, 196, 190);
+.untap-8th {
+	border-radius:1em;
+	background-color: @mana-colorless;
+  &:before {
+    content: "\e625";
+    color: rgb(255, 255, 255);
+  }
+  &:after {
+    content: "\e626";
+    margin-left: -1.5em;
+    color: rgb(0, 0, 0);
+  }
 }
-.untap-8th .path2:before {
-	content: "\e625";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-.untap-8th .path3:before {
-	content: "\e626";
-	margin-left: -1em;
-	color: rgb(0, 0, 0);
-}
-
 .tap {
   &:before {
     content: "\e627";
@@ -128,14 +132,14 @@
   &:after {
     content: "\e628";
     margin-left: -1em;
-    color: rgb(13, 15, 15);
+    color: @mana-font-black;
   }
 }
 
 .untap{
   &:before {
     content: "\e629";
-    color: rgb(13, 15, 15);
+    color: @mana-font-black;
   }
   &:after {
     content: "\e62a";
@@ -191,6 +195,7 @@
 
 .phyrexian:before {
 	content: "\e635";
+  color: @mana-font-black;
 }
 
 .phyrexian-colorless:before {
@@ -242,50 +247,23 @@
   .forest;
 }
 
-.snow .path1:before {
-	content: "\e666";
-	color: rgb(201, 196, 190);
+.snow, .mana-snow {
+	border-radius:1em;
+	background-color: @mana-colorless;
+  padding-right:1em;
+  &:before {
+    content: "\e667";
+    color: @mana-font-black;
+  }
+  &:after {
+    content: "\e668\e669\e66a\e66b\e66c\e66d\e66e";
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    color: rgb(255, 255, 255);
+  }
 }
-.snow .path2:before {
-	content: "\e667";
-	margin-left: -1em;
-	color: rgb(13, 15, 15);
-}
-.snow .path3:before {
-	content: "\e668";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-.snow .path4:before {
-	content: "\e669";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-.snow .path5:before {
-	content: "\e66a";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-.snow .path6:before {
-	content: "\e66b";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-.snow .path7:before {
-	content: "\e66c";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-.snow .path8:before {
-	content: "\e66d";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-.snow .path9:before {
-	content: "\e66e";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
+
+
 
 .mana-0:before {
 	.colorless-background;
@@ -293,7 +271,7 @@
 .mana-0:after {
 	content: "\e605";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-1:before {
@@ -302,7 +280,7 @@
 .mana-1:after {
 	content: "\e607";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-2:before {
@@ -311,7 +289,7 @@
 .mana-2:after {
 	content: "\e61d";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-3:before {
@@ -320,7 +298,7 @@
 .mana-3:after {
 	content: "\e670";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-4:before {
@@ -329,7 +307,7 @@
 .mana-4:after {
 	content: "\e672";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-5:before {
@@ -338,7 +316,7 @@
 .mana-5:after {
 	content: "\e674";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-6:before {
@@ -347,7 +325,7 @@
 .mana-6:after {
 	content: "\e676";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-7:before {
@@ -356,7 +334,7 @@
 .mana-7:after {
 	content: "\e678";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-8:before {
@@ -365,7 +343,7 @@
 .mana-8:after {
 	content: "\e67a";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-9:before {
@@ -374,7 +352,7 @@
 .mana-9:after {
 	content: "\e67c";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-10:before {
@@ -383,7 +361,7 @@
 .mana-10:after {
 	content: "\e67e";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-11:before {
@@ -392,7 +370,7 @@
 .mana-11:after {
 	content: "\e680";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-12:before {
@@ -401,7 +379,7 @@
 .mana-12:after {
 	content: "\e682";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-13:before {
@@ -410,7 +388,7 @@
 .mana-13:after {
 	content: "\e684";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-14:before {
@@ -419,7 +397,7 @@
 .mana-14:after {
 	content: "\e686";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-15:before {
@@ -428,7 +406,7 @@
 .mana-15:after {
 	content: "\e688";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-16:before {
@@ -437,7 +415,7 @@
 .mana-16:after {
 	content: "\e68a";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-17:before {
@@ -446,7 +424,7 @@
 .mana-17:after {
 	content: "\e68c";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-18:before {
@@ -455,7 +433,7 @@
 .mana-18:after {
 	content: "\e68e";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-19:before {
@@ -464,7 +442,7 @@
 .mana-19:after {
 	content: "\e690";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-20:before {
@@ -473,7 +451,7 @@
 .mana-20:after {
 	content: "\e692";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-x:before {
@@ -482,7 +460,7 @@
 .mana-x:after {
 	content: "\e694";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-y:before {
@@ -491,7 +469,7 @@
 .mana-y:after {
 	content: "\e696";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 .mana-z:before {
@@ -500,125 +478,284 @@
 .mana-z:after {
 	content: "\e698";
 	margin-left: -1em;
-	color: rgb(13, 15, 15);
+	color: @mana-font-black;
 }
 
 
-.hybrid {
 
-  .white:first-child:before {
-    content: "\e601";
-    color: rgb(248, 246, 216);
-  }
-  .white:first-child:after {
-    content: "\e603";
-    margin-left: -1em;
-    color: rgb(13, 15, 15);
-  }
-
-  .white:last-child:before {
-    content: "\e640";
-    color: rgb(248, 246, 216);
-    margin-left: -1em;
-  }
-
-  .white:last-child:after {
-    content: "\e642";
-    margin-left: -1em;
-    color: rgb(13, 15, 15);
-  }
-  .blue:first-child:before {
-    content: "\e60d";
-    color: rgb(193, 215, 233);
-  }
-  .blue:first-child:after {
-    content: "\e60e";
-    margin-left: -1em;
-    color: rgb(13, 15, 15);
-  }
-
-
-  .blue:last-child:before {
-    content: "\e600";
-    margin-left: -1em;
-    color: rgb(193, 215, 233);
-  }
-
-  .blue:last-child:after {
-    content: "\e602";
-    margin-left: -1em;
-    color: rgb(13, 15, 15);
-  }
-  .black:first-child:before {
-    content: "\e615";
-    color: rgb(186, 177, 171);
-  }
-
-  .black:first-child:after {
-    content: "\e617";
-    margin-left: -1em;
-    color: rgb(13, 15, 15);
-  }
-
-  .black:last-child:before {
-    content: "\e60c";
-    margin-left: -1em;
-    color: rgb(186, 177, 171);
-  }
-  .black:last-child:after {
-    content: "\e60f";
-    margin-left: -1em;
-    color: rgb(13, 15, 15);
-  }
-
-  .red:first-child:before {
-    content: "\e63d";
-    color: rgb(228, 153, 119);
-  }
-  .red:first-child:after{
-    content: "\e63f";
-    margin-left: -1em;
-    color: rgb(13, 15, 15);
-  }
-  .red:last-child:before {
-    content: "\e610";
-    margin-left: -1em;
-    color: rgb(228, 153, 119);
-  }
-  .red:last-child:after {
-    content: "\e612";
-    margin-left: -1em;
-    color: rgb(13, 15, 15);
-  }
-
-  .green:first-child:before {
-    content: "\e641";
-    color: rgb(163, 192, 149);
-  }
-  .green:first-child:after {
-    content: "\e643";
-    margin-left: -1em;
-    color: rgb(13, 15, 15);
-  }
-  .green:last-child:before {
+.hybrid-wu {
+  border-radius:1em;
+	background-color: @mana-white;
+  padding-right:1em;
+  &:before {
     content: "\e618";
-    margin-left: -1em;
+    margin-left: 0;
+    color: @mana-blue;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e603\e602";
+    color: @mana-font-black;
+  }
+  
+}
+
+
+
+.hybrid-wb {
+  border-radius:1em;
+	background-color: @mana-white;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-black;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e603\e60f";
+    color: @mana-font-black;
+  }
+  
+}
+
+
+.hybrid-ub {
+  border-radius:1em;
+	background-color: @mana-blue;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-black;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e60e\e60f";
+    color: @mana-font-black;
+  }
+  
+}
+
+
+.hybrid-ur {
+  border-radius:1em;
+	background-color: @mana-blue;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-red;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e60e\e612";
+    color: @mana-font-black;
+  }
+  
+}
+
+
+.hybrid-br {
+  border-radius:1em;
+	background-color: @mana-black;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-red;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e617\e612";
+    color: @mana-font-black;
+  }
+  
+}
+
+
+.hybrid-bg {
+  border-radius:1em;
+	background-color: @mana-black;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-green;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e617\e63b";
+    color: @mana-font-black;
+  }
+  
+}
+
+
+.hybrid-rg {
+  border-radius:1em;
+	background-color: @mana-red;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-green;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e63f\e63b";
+    color: @mana-font-black;
+  }
+  
+}
+
+
+.hybrid-rw {
+  border-radius:1em;
+	background-color: @mana-red;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-white;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e63f\e642";
+    color: @mana-font-black;
+  }
+  
+}
+
+
+.hybrid-gw {
+  border-radius:1em;
+	background-color: @mana-green;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-white;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e643\e642";
+    color: @mana-font-black;
+  }
+  
+}
+
+
+.hybrid-gu {
+  border-radius:1em;
+	background-color: @mana-green;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-blue;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e643\e602";
+    color: @mana-font-black;
+  }
+  
+}
+
+.hybrid-2w {
+  border-radius:1em;
+	background-color: @mana-colorless;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-white;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e652\e642";
+    color: @mana-font-black;
+  }
+  
+}
+.hybrid-2u {
+  border-radius:1em;
+	background-color: @mana-colorless;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-blue;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e652\e602";
+    color: @mana-font-black;
+  }
+  
+}
+.hybrid-2b {
+  border-radius:1em;
+	background-color: @mana-colorless;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-black;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e652\e60f";
+    color: @mana-font-black;
+  }
+  
+}
+
+.hybrid-2r {
+  border-radius:1em;
+	background-color: @mana-colorless;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
+    color: @mana-red;
+  }
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e652\e612";
+    color: @mana-font-black;
+  }
+  
+}
+.hybrid-2g {
+  border-radius:1em;
+	background-color: @mana-colorless;
+  padding-right:1em;
+  &:before {
+    content: "\e618";
+    margin-left: 0;
     color: rgb(163, 192, 149);
   }
-  .green:last-child:after {
-    content: "\e63b";
-    margin-left: -1em;
-    color: rgb(13, 15, 15);
+  &:after {
+    letter-spacing:-1em;
+    margin-left: -1.5em;
+    content: "\e652\e63b";
+    color: @mana-font-black;
   }
-
-
-  .mana-2:first-child:before {
-    content: "\e651";
-    color: rgb(202, 197, 192);
-  }
-  .mana-2:first-child:after {
-    content: "\e652";
-    margin-left: -1em;
-    color: rgb(13, 15, 15);
-  }
+  
 }

@@ -6,11 +6,9 @@ An adaption of the mtg icons as a vector font for use in webapps, websites, etc.
 
 	<i class="mtg mana-w"></i>
 	<i class="mtg mana-5"></i>
-	
-Hybrids
-
-	<i class="mtg hybrid"><span class="white"></span><span class="blue"></span></i>
-	<i class="mtg hybrid"><span class="mana-2"></span><span class="red"></span></i>
+  <i class="mtg mana-snow"></i>
+  <i class="mtg hybrid-2g"></i>
+  <i class="mtg tap"></i>
 
 See https://cdn.rawgit.com/jninnes/mtgicons/master/demo.html
 
@@ -27,6 +25,6 @@ Many thanks to BaconCatBug for the original SVG icons that have been used here.
 
 
 
-#TODO
+# TODO
 
 - make all icons available with one class each and not depend on HTML structure.
