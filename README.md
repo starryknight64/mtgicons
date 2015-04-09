@@ -1,6 +1,7 @@
 # mtgicons
 
-An adaption of the mtg icons as a vector font for use in webapps, websites, etc. All original icons are trademarks of Wizards of the Coast. Using these icons should be within the Wizard's Fan Site Policy <link>
+An adaption of the mtg icons as a vector font for use in apps, websites, etc. 
+
 
 # Usage
 
@@ -26,3 +27,9 @@ Requires Node.js, uses NPM to run the build
 
 Many thanks to BaconCatBug for the original SVG icons that have been used here.
 
+# Legal stuff
+
+Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC in the United States and other countries. © 2015 Wizards. All Rights Reserved.
+
+This repository is not affiliated with, endorsed, sponsored, or specifically approved by Wizards of the Coast LLC. For more information about Wizards of the Coast or any of Wizards' 
+trademarks or other intellectual property, please visit their website at archive.wizards.com.
