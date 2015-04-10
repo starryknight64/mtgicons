@@ -16,7 +16,6 @@
     "watch": "nodemon --watch src --exec \"npm run build\"",
     "watch:less": "nodemon --watch src --exec \"npm run build:less\""
   },
-  
   "dependencies": {
     
   },
