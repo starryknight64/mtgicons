@@ -11,16 +11,7 @@
 
 .mtgexp {
 	font-family: 'mtgexpansions';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	.font-config;
 }
 
 .alpha .path1:before {
@@ -123,43 +114,23 @@
 	color: rgb(255, 255, 255);
 }
 
-.fourth .path1:before {
-	content: "\e614";
-	color: rgb(255, 255, 255);
-}
-.fourth .path2:before {
+.fourth:after {
 	content: "\e615";
-	margin-left: -1.390625em;
 	color: rgb(0, 0, 0);
 }
 
-.fifth .path1:before {
-	content: "\e616";
-	color: rgb(255, 255, 255);
-}
-.fifth .path2:before {
+.fifth:after {
 	content: "\e617";
-	margin-left: -1.158203125em;
 	color: rgb(0, 0, 0);
 }
 
-.sixth .path1:before {
-	content: "\e618";
-	color: rgb(255, 255, 255);
-}
-.sixth .path2:before {
+.sixth:after {
 	content: "\e619";
-	margin-left: -1.390625em;
 	color: rgb(0, 0, 0);
 }
 
-.seventh .path1:before {
-	content: "\e61a";
-	color: rgb(255, 255, 255);
-}
-.seventh .path2:before {
+.seventh:after {
 	content: "\e61b";
-	margin-left: -0.7236328125em;
 	color: rgb(0, 0, 0);
 }
 
@@ -293,695 +264,656 @@
 	color: rgb(255, 255, 255);
 }
 
-.antiquities .path1:before {
+.antiquities:before {
 	content: "\e636";
 	color: rgb(255, 255, 255);
 }
-.antiquities .path2:before {
+.antiquities:after {
 	content: "\e637";
 	margin-left: -1.833984375em;
 	color: rgb(0, 0, 0);
 }
 
-.legends .path1:before {
-	content: "\e638";
-	color: rgb(255, 255, 255);
-}
-.legends .path2:before {
+
+.legends:before {
 	content: "\e639";
-	margin-left: -1.1787109375em;
 	color: rgb(0, 0, 0);
 }
-.legends .path3:before {
-	content: "\e63a";
+.legends:after {
+	content: "\e63a\e63b\e63c\e63d\e63e";
 	margin-left: -1.1787109375em;
-	color: rgb(255, 255, 255);
-}
-.legends .path4:before {
-	content: "\e63b";
-	margin-left: -1.1787109375em;
-	color: rgb(255, 255, 255);
-}
-.legends .path5:before {
-	content: "\e63c";
-	margin-left: -1.1787109375em;
-	color: rgb(255, 255, 255);
-}
-.legends .path6:before {
-	content: "\e63d";
-	margin-left: -1.1787109375em;
-	color: rgb(255, 255, 255);
-}
-.legends .path7:before {
-	content: "\e63e";
-	margin-left: -1.1787109375em;
+  letter-spacing: -1em;
 	color: rgb(255, 255, 255);
 }
 
-.the-dark .path1:before {
+
+.the-dark:before {
 	content: "\e63f";
 	color: rgb(255, 255, 255);
 }
-.the-dark .path2:before {
+.the-dark:after {
 	content: "\e640";
 	margin-left: -1.0068359375em;
 	color: rgb(0, 0, 0);
 }
 
-.fallen-empires .path1:before {
+.fallen-empires:before {
 	content: "\e641";
 	color: rgb(255, 255, 255);
 }
-.fallen-empires .path2:before {
+.fallen-empires:after {
 	content: "\e642";
 	margin-left: -1.2734375em;
 	color: rgb(0, 0, 0);
 }
 
-.homelands .path1:before {
+.homelands:before {
 	content: "\e643";
 	color: rgb(255, 255, 255);
 }
-.homelands .path2:before {
+.homelands:after {
 	content: "\e644";
 	margin-left: -1em;
 	color: rgb(0, 0, 0);
 }
 
-.ice-age .path1:before {
+.ice-age:before {
 	content: "\e645";
 	color: rgb(255, 255, 255);
 }
-.ice-age .path2:before {
+.ice-age:after {
 	content: "\e646";
 	margin-left: -0.97265625em;
 	color: rgb(0, 0, 0);
 }
 
-.alliances .path1:before {
+.alliances:before {
 	content: "\e647";
 	color: rgb(255, 255, 255);
 }
-.alliances .path2:before {
+.alliances:after {
 	content: "\e648";
 	margin-left: -2.3720703125em;
 	color: rgb(0, 0, 0);
 }
 
-.coldsnap .path1:before {
+.coldsnap:before {
 	content: "\e649";
 	color: rgb(0, 0, 0);
 }
-.coldsnap .path2:before {
+.coldsnap:after {
 	content: "\e64a";
 	margin-left: -0.5478515625em;
 	color: rgb(255, 255, 255);
 }
 
-.mirage .path1:before {
+.mirage:before {
 	content: "\e64b";
 	color: rgb(255, 255, 255);
 }
-.mirage .path2:before {
+.mirage:after {
 	content: "\e64c";
 	margin-left: -0.9765625em;
 	color: rgb(0, 0, 0);
 }
 
-.visions .path1:before {
-	content: "\e64d";
-	color: rgb(255, 255, 255);
-}
-.visions .path2:before {
+
+.visions:before {
 	content: "\e64e";
-	margin-left: -0.921875em;
 	color: rgb(0, 0, 0);
 }
-.visions .path3:before {
+.visions:after {
 	content: "\e64f";
 	margin-left: -0.921875em;
 	color: rgb(255, 255, 255);
 }
 
-.weatherlight .path1:before {
+.weatherlight:before {
 	content: "\e650";
 	color: rgb(255, 255, 255);
 }
-.weatherlight .path2:before {
+.weatherlight:after {
 	content: "\e651";
 	margin-left: -1.396484375em;
 	color: rgb(0, 0, 0);
 }
 
-.tempest .path1:before {
-	content: "\e652";
-	color: rgb(255, 255, 255);
-}
-.tempest .path2:before {
+.tempest:before {
 	content: "\e653";
-	margin-left: -1.0537109375em;
 	color: rgb(0, 0, 0);
 }
-.tempest .path3:before {
+.tempest:after {
 	content: "\e654";
 	margin-left: -1.0537109375em;
 	color: rgb(255, 255, 255);
 }
 
-.stronghold .path1:before {
+.stronghold:before {
 	content: "\e655";
 	color: rgb(255, 255, 255);
 }
-.stronghold .path2:before {
+.stronghold:after {
 	content: "\e656";
 	margin-left: -0.984375em;
 	color: rgb(0, 0, 0);
 }
 
-.exodus .path1:before {
+.exodus:before {
 	content: "\e657";
 	color: rgb(255, 255, 255);
 }
-.exodus .path2:before {
+.exodus:after {
 	content: "\e658";
 	margin-left: -2.431640625em;
 	color: rgb(0, 0, 0);
 }
 
-.urzas-saga .path1:before {
+.urzas-saga:before {
 	content: "\e659";
 	color: rgb(255, 255, 255);
 }
-.urzas-saga .path2:before {
+.urzas-saga:after {
 	content: "\e65a";
 	margin-left: -1.65234375em;
 	color: rgb(0, 0, 0);
 }
 
-.urzas-legacy .path1:before {
+.urzas-legacy:before {
 	content: "\e65b";
 	color: rgb(255, 255, 255);
 }
-.urzas-legacy .path2:before {
+.urzas-legacy:after {
 	content: "\e65c";
 	margin-left: -1.7861328125em;
 	color: rgb(0, 0, 0);
 }
 
-.urzas-destiny .path1:before {
+.urzas-destiny:before {
 	content: "\e65d";
 	color: rgb(255, 255, 255);
 }
-.urzas-destiny .path2:before {
+.urzas-destiny:after {
 	content: "\e65e";
 	margin-left: -0.8828125em;
 	color: rgb(0, 0, 0);
 }
 
-.mercadian-masques .path1:before {
+.mercadian-masques:before {
 	content: "\e65f";
 	color: rgb(255, 255, 255);
 }
-.mercadian-masques .path2:before {
+.mercadian-masques:after {
 	content: "\e660";
 	margin-left: -1.0322265625em;
 	color: rgb(0, 0, 0);
 }
 
-.nemesis .path1:before {
+.nemesis:before {
 	content: "\e661";
 	color: rgb(255, 255, 255);
 }
-.nemesis .path2:before {
+.nemesis:after {
 	content: "\e662";
 	margin-left: -2.091796875em;
 	color: rgb(0, 0, 0);
 }
 
-.prophecy .path1:before {
+.prophecy:before {
 	content: "\e663";
 	color: rgb(255, 255, 255);
 }
-.prophecy .path2:before {
+.prophecy:after {
 	content: "\e664";
 	margin-left: -1.1064453125em;
 	color: rgb(0, 0, 0);
 }
 
-.invasion .path1:before {
+.invasion:before {
 	content: "\e665";
 	color: rgb(255, 255, 255);
 }
-.invasion .path2:before {
+.invasion:after {
 	content: "\e666";
 	margin-left: -0.720703125em;
 	color: rgb(0, 0, 0);
 }
 
-.planeshift .path1:before {
+.planeshift:before {
 	content: "\e667";
 	color: rgb(255, 255, 255);
 }
-.planeshift .path2:before {
+.planeshift:after {
 	content: "\e668";
 	margin-left: -1.6962890625em;
 	color: rgb(0, 0, 0);
 }
 
-.apocalypse .path1:before {
+.apocalypse:before {
 	content: "\e669";
 	color: rgb(255, 255, 255);
 }
-.apocalypse .path2:before {
+.apocalypse:after {
 	content: "\e66a";
 	margin-left: -0.806640625em;
 	color: rgb(0, 0, 0);
 }
 
-.odyssey .path1:before {
+.odyssey:before {
 	content: "\e66b";
 	color: rgb(255, 255, 255);
 }
-.odyssey .path2:before {
+.odyssey:after {
 	content: "\e66c";
 	margin-left: -0.685546875em;
 	color: rgb(0, 0, 0);
 }
 
-.torment .path1:before {
+.torment:before {
 	content: "\e66d";
 	color: rgb(255, 255, 255);
 }
-.torment .path2:before {
+.torment:after {
 	content: "\e66e";
 	margin-left: -0.9873046875em;
 	color: rgb(0, 0, 0);
 }
 
-.judgement .path1:before {
+.judgement:before {
 	content: "\e66f";
 	color: rgb(255, 255, 255);
 }
-.judgement .path2:before {
+.judgement:after {
 	content: "\e670";
 	margin-left: -1.1572265625em;
 	color: rgb(0, 0, 0);
 }
 
-.onslaught .path1:before {
+.onslaught:before {
 	content: "\e671";
 	color: rgb(255, 255, 255);
 }
-.onslaught .path2:before {
+.onslaught:after {
 	content: "\e672";
 	margin-left: -1.3779296875em;
 	color: rgb(0, 0, 0);
 }
 
-.legions .path1:before {
-	content: "\e673";
-	color: rgb(255, 255, 255);
-}
-.legions .path2:before {
+.legions:before {
 	content: "\e674";
-	margin-left: -2.1416015625em;
 	color: rgb(255, 255, 255);
 }
-.legions .path3:before {
+.legions:after {
 	content: "\e675";
 	margin-left: -2.1416015625em;
 	color: rgb(0, 0, 0);
 }
 
-.scourge .path1:before {
+.scourge:before {
 	content: "\e676";
 	color: rgb(255, 255, 255);
 }
-.scourge .path2:before {
+.scourge:after {
 	content: "\e677";
 	margin-left: -0.98046875em;
 	color: rgb(0, 0, 0);
 }
 
-.mirrodin .path1:before {
+.mirrodin:before {
 	content: "\e678";
 	color: rgb(255, 255, 255);
 }
-.mirrodin .path2:before {
+.mirrodin:after {
 	content: "\e679";
 	margin-left: -1.8193359375em;
 	color: rgb(0, 0, 0);
 }
 
-.darksteel .path1:before {
+.darksteel:before {
 	content: "\e67a";
 	color: rgb(255, 255, 255);
 }
-.darksteel .path2:before {
+.darksteel:after {
 	content: "\e67b";
 	margin-left: -0.826171875em;
 	color: rgb(0, 0, 0);
 }
 
-.fifth-dawn .path1:before {
+.fifth-dawn:before {
 	content: "\e67c";
 	color: rgb(255, 255, 255);
 }
-.fifth-dawn .path2:before {
+.fifth-dawn:after {
 	content: "\e67d";
 	margin-left: -0.9384765625em;
 	color: rgb(0, 0, 0);
 }
 
-.champions-of-kamigawa .path1:before {
+.champions-of-kamigawa:before {
 	content: "\e67e";
 	color: rgb(255, 255, 255);
 }
-.champions-of-kamigawa .path2:before {
+.champions-of-kamigawa:after {
 	content: "\e67f";
 	margin-left: -1.2275390625em;
 	color: rgb(0, 0, 0);
 }
 
-.betrayers-of-kamigawa .path1:before {
+.betrayers-of-kamigawa:before {
 	content: "\e680";
 	color: rgb(255, 255, 255);
 }
-.betrayers-of-kamigawa .path2:before {
+.betrayers-of-kamigawa:after {
 	content: "\e681";
 	margin-left: -1.044921875em;
 	color: rgb(0, 0, 0);
 }
 
-.saviors-of-kamigawa .path1:before {
+.saviors-of-kamigawa:before {
 	content: "\e682";
 	color: rgb(255, 255, 255);
 }
-.saviors-of-kamigawa .path2:before {
+.saviors-of-kamigawa:after {
 	content: "\e683";
 	margin-left: -1.005859375em;
 	color: rgb(0, 0, 0);
 }
 
-.ravnica .path1:before {
+.ravnica:before {
 	content: "\e684";
 	color: rgb(255, 255, 255);
 }
-.ravnica .path2:before {
+.ravnica:after {
 	content: "\e685";
 	margin-left: -0.6337890625em;
 	color: rgb(0, 0, 0);
 }
 
-.guildpact .path1:before {
+.guildpact:before {
 	content: "\e686";
 	color: rgb(255, 255, 255);
 }
-.guildpact .path2:before {
+.guildpact:after {
 	content: "\e687";
 	margin-left: -1.0107421875em;
 	color: rgb(0, 0, 0);
 }
 
-.dissension .path1:before {
+.dissension:before {
 	content: "\e688";
 	color: rgb(255, 255, 255);
 }
-.dissension .path2:before {
+.dissension:after {
 	content: "\e689";
 	margin-left: -1.09375em;
 	color: rgb(0, 0, 0);
 }
 
-.time-spiral .path1:before {
+.time-spiral:before {
 	content: "\e68a";
 	color: rgb(255, 255, 255);
 }
-.time-spiral .path2:before {
+.time-spiral:after {
 	content: "\e68b";
 	margin-left: -0.8896484375em;
 	color: rgb(0, 0, 0);
 }
 
-.planar-chaos .path1:before {
+.planar-chaos:before {
 	content: "\e68c";
 	color: rgb(255, 255, 255);
 }
-.planar-chaos .path2:before {
+.planar-chaos:after {
 	content: "\e68d";
 	margin-left: -1.3056640625em;
 	color: rgb(0, 0, 0);
 }
 
-.future-sight .path1:before {
+.future-sight:before {
 	content: "\e68e";
 	color: rgb(255, 255, 255);
 }
-.future-sight .path2:before {
+.future-sight:after {
 	content: "\e68f";
 	margin-left: -1.3310546875em;
 	color: rgb(0, 0, 0);
 }
 
-.lorwyn .path1:before {
+.lorwyn:before {
 	content: "\e690";
 	color: rgb(255, 255, 255);
 }
-.lorwyn .path2:before {
+.lorwyn:after {
 	content: "\e691";
 	margin-left: -0.7294921875em;
 	color: rgb(0, 0, 0);
 }
 
-.morningtide .path1:before {
+.morningtide:before {
 	content: "\e692";
 	color: rgb(255, 255, 255);
 }
-.morningtide .path2:before {
+.morningtide:after {
 	content: "\e693";
 	margin-left: -1.0185546875em;
 	color: rgb(0, 0, 0);
 }
 
-.shadowmoor .path1:before {
+.shadowmoor:before {
 	content: "\e694";
 	color: rgb(255, 255, 255);
 }
-.shadowmoor .path2:before {
+.shadowmoor:after {
 	content: "\e695";
 	margin-left: -1.771484375em;
 	color: rgb(0, 0, 0);
 }
 
-.eventide .path1:before {
+.eventide:before {
 	content: "\e696";
 	color: rgb(255, 255, 255);
 }
-.eventide .path2:before {
+.eventide:after {
 	content: "\e697";
 	margin-left: -1.2802734375em;
 	color: rgb(0, 0, 0);
 }
 
-.shards-of-alara .path1:before {
+.shards-of-alara:before {
 	content: "\e698";
 	color: rgb(255, 255, 255);
 }
-.shards-of-alara .path2:before {
+.shards-of-alara:after {
 	content: "\e699";
 	margin-left: -0.9189453125em;
 	color: rgb(0, 0, 0);
 }
 
-.conflux .path1:before {
+.conflux:before {
 	content: "\e69a";
 	color: rgb(255, 255, 255);
 }
-.conflux .path2:before {
+.conflux:after {
 	content: "\e69b";
 	margin-left: -0.9375em;
 	color: rgb(0, 0, 0);
 }
 
-.alara-reborn .path1:before {
+.alara-reborn:before {
 	content: "\e69c";
 	color: rgb(255, 255, 255);
 }
-.alara-reborn .path2:before {
+.alara-reborn:after {
 	content: "\e69d";
 	margin-left: -0.876953125em;
 	color: rgb(0, 0, 0);
 }
 
-.zendikar .path1:before {
+.zendikar:before {
 	content: "\e69e";
 	color: rgb(255, 255, 255);
 }
-.zendikar .path2:before {
+.zendikar:after {
 	content: "\e69f";
 	margin-left: -0.8701171875em;
 	color: rgb(0, 0, 0);
 }
 
-.worldwake .path1:before {
+.worldwake:before {
 	content: "\e6a0";
 	color: rgb(255, 255, 255);
 }
-.worldwake .path2:before {
+.worldwake:after {
 	content: "\e6a1";
 	margin-left: -0.7978515625em;
 	color: rgb(0, 0, 0);
 }
 
-.rise-of-the-eldrazi .path1:before {
+.rise-of-the-eldrazi:before {
 	content: "\e6a2";
 	color: rgb(255, 255, 255);
 }
-.rise-of-the-eldrazi .path2:before {
+.rise-of-the-eldrazi:after {
 	content: "\e6a3";
 	margin-left: -1.0654296875em;
 	color: rgb(0, 0, 0);
 }
 
-.scars-of-mirrodin .path1:before {
+.scars-of-mirrodin:before {
 	content: "\e6a4";
 	color: rgb(255, 255, 255);
 }
-.scars-of-mirrodin .path2:before {
+.scars-of-mirrodin:after {
 	content: "\e6a5";
 	margin-left: -1em;
 	color: rgb(0, 0, 0);
 }
 
-.mirrodin-besieged .path1:before {
+.mirrodin-besieged:before {
 	content: "\e6a6";
 	color: rgb(255, 255, 255);
 }
-.mirrodin-besieged .path2:before {
+.mirrodin-besieged:after {
 	content: "\e6a7";
 	margin-left: -0.791015625em;
 	color: rgb(0, 0, 0);
 }
 
-.new-phyrexia .path1:before {
+.new-phyrexia:before {
 	content: "\e6a8";
 	color: rgb(255, 255, 255);
 }
-.new-phyrexia .path2:before {
+.new-phyrexia:after {
 	content: "\e6a9";
 	margin-left: -0.646484375em;
 	color: rgb(0, 0, 0);
 }
 
-.innistrad .path1:before {
-	content: "\e6aa";
-	color: rgb(255, 255, 255);
-}
-.innistrad .path2:before {
+
+.innistrad:before {
 	content: "\e6ab";
-	margin-left: -1.1015625em;
 	color: rgb(0, 0, 0);
 }
 
 .dark-ascension:before {
 	content: "\e6ac";
+  color: rgb(0, 0, 0);
 }
 
-.avacyn-restored .path1:before {
+.avacyn-restored:before {
 	content: "\e6ad";
 	color: rgb(0, 0, 0);
 }
-.avacyn-restored .path2:before {
+.avacyn-restored:after {
 	content: "\e6ae";
 	margin-left: -0.9873046875em;
 	color: rgb(255, 255, 255);
 }
 
-.return-to-ravnica .path1:before {
+.return-to-ravnica:before {
 	content: "\e6af";
 	color: rgb(0, 0, 0);
 }
-.return-to-ravnica .path2:before {
+.return-to-ravnica:after {
 	content: "\e6b0";
 	margin-left: -0.9873046875em;
 	color: rgb(255, 255, 255);
 }
 
-.gatecrash .path1:before {
+.gatecrash:before {
 	content: "\e6b1";
 	color: rgb(0, 0, 0);
 }
-.gatecrash .path2:before {
+.gatecrash:after {
 	content: "\e6b2";
 	margin-left: -1.5546875em;
 	color: rgb(255, 255, 255);
 }
 
-.dragons-maze .path1:before {
+.dragons-maze:before {
 	content: "\e6b3";
 	color: rgb(255, 255, 255);
 }
-.dragons-maze .path2:before {
+.dragons-maze:after {
 	content: "\e6b4";
 	margin-left: -1.3759765625em;
 	color: rgb(0, 0, 0);
 }
 
-.theros .path1:before {
+.theros:before {
 	content: "\e6b5";
 	color: rgb(255, 255, 255);
 }
-.theros .path2:before {
+.theros:after {
 	content: "\e6b6";
 	margin-left: -0.9951171875em;
 	color: rgb(0, 0, 0);
 }
 
-.born-of-the-gods .path1:before {
+.born-of-the-gods:before {
 	content: "\e6b7";
 	color: rgb(255, 255, 255);
 }
-.born-of-the-gods .path2:before {
+.born-of-the-gods:after {
 	content: "\e6b8";
 	margin-left: -1.0947265625em;
 	color: rgb(0, 0, 0);
 }
 
-.chronicles .path1:before {
+.chronicles:before {
 	content: "\e6b9";
 	color: rgb(255, 255, 255);
 }
-.chronicles .path2:before {
+.chronicles:after {
 	content: "\e6ba";
 	margin-left: -0.7255859375em;
 	color: rgb(0, 0, 0);
 }
 
-.portal .path1:before {
+.portal:before {
 	content: "\e6bb";
 	color: rgb(255, 255, 255);
 }
-.portal .path2:before {
+.portal:after {
 	content: "\e6bc";
 	margin-left: -1em;
 	color: rgb(0, 0, 0);
 }
 
-.portal-second-age .path1:before {
+.portal-second-age:before {
 	content: "\e6bd";
 	color: rgb(255, 255, 255);
 }
-.portal-second-age .path2:before {
+.portal-second-age:after {
 	content: "\e6be";
 	margin-left: -1.0185546875em;
 	color: rgb(0, 0, 0);
 }
 
-.portal-three-kindoms .path1:before {
+.portal-three-kindoms:before {
 	content: "\e6bf";
 	color: rgb(255, 255, 255);
 }
-.portal-three-kindoms .path2:before {
+.portal-three-kindoms:after {
 	content: "\e6c0";
 	margin-left: -0.845703125em;
 	color: rgb(0, 0, 0);
