@@ -21,6 +21,8 @@ Then in your HTML file, use the following markup:
 	<i class="mtg hybrid-2g"></i>
   <!-- A tap symbol -->
 	<i class="mtg tap"></i>
+   <!-- Dragons of Tarkir expansion symbol -->
+  <i class="mtg dragons-of-tarkir"></i>
 
 See https://cdn.rawgit.com/jninnes/mtgicons/master/demo/demo.html
 
