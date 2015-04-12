@@ -14,7 +14,7 @@
     "build:less": "lessc src/mtgicons.less | cssmin > dist/mtgicons.css",
     "deploy:assets": "cp -rf src/fonts/ dist/",
     "watch": "nodemon --watch src --exec \"npm run build\"",
-    "watch:less": "nodemon --watch src --exec \"npm run build:less\""
+    "watch:less": "nodemon --delay 1ms --watch src --exec \"npm run build:less\""
   },
   "dependencies": {
     

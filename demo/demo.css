@@ -4,15 +4,30 @@ body {
 	font-family: sans-serif;
 	font-size: 1em;
 	line-height: 1.5;
-	color: #555;
-	background: #fff;
+	color: #FFF;
+	background: #55A;
 }
 h1 {
 	font-size: 1.5em;
 	font-weight: normal;
+	background: #002;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin:0;
+	padding-top: .75em;
+	padding-bottom: .75em;
+
+}
+h1 i {
+	font-size:0.6em;
 }
 h2 {
   float:left;
+  display:block;
+  width:100%;
+}
+h3 {
+	float:left;
   display:block;
   width:100%;
 }
@@ -78,10 +93,7 @@ p {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
-.mvm {
-	margin-top: .75em;
-	margin-bottom: .75em;
-}
+
 .mtn {
 	margin-top: 0;
 }
@@ -95,10 +107,7 @@ p {
 	margin-left: 1.5em;
 	margin-right: 1.5em;
 }
-.mhmm {
-	margin-left: 1em;
-	margin-right: 1em;
-}
+
 .mls {
 	margin-left: .25em;
 }
@@ -153,5 +162,7 @@ p {
 }
 .code {
   font-family:Consolas, fixed;
+  float:left;
+  width:100%;
 }
 

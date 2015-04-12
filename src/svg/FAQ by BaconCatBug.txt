@@ -1,0 +1,53 @@
+First things first, let's get the most important part out of the way, credits!
+White Dragon
+Goblin Hero
+Skibulk
+Baka-Neku
+Qanadhar 
+Poopski
+The World Tree, Yggdrasill, for keeping Nidhoggr bound within it's roots, thus preventing it from most likely killing us all in a most painful manner.
+***************************************************************************
+***************************************************************************
+WHAT THE HECK IS THIS NONSENSE?
+This is a compiled megapack of all the expansion symbols from Magic: The Gathering, as well as various mana symbols and other miscellaneous things, all in glorious SVG format. All the SVGs have been lovingly scaled to 600 pixels wide for consistency and saved in plain SVG format for the widest compatibility.
+
+There is also a pack of the SVGs exported to 300 pixel wide PNGs, for those who require the PNGs instead.
+***************************************************************************
+***************************************************************************
+WHAT IS A SVG?
+Scalable Vector Graphics (SVG) is a family of specifications of an XML-based file format for describing two-dimensional vector graphics, both static and dynamic (i.e. interactive or animated). The SVG specification is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.
+
+SVG images and their behaviors are defined in XML text files. This means that they can be searched, indexed, scripted and, if required, compressed. Since they are XML files, SVG images can be created and edited with any text editor, but it is often more convenient to create these types of images with drawing programs such as Inkscape.
+
+All major modern web browsers have at least some degree of support and render SVG markup directly, including Mozilla Firefox, Internet Explorer 9, Google Chrome, and Safari. However, no earlier versions of Microsoft Internet Explorer (IE) support SVG natively.
+***************************************************************************
+***************************************************************************
+WHY SVG? WHY NOT PNG LIKE A NORMAL PERSON?
+SVG's are fundamentally different to the common picture formats (such as BMP, GIF, PNG etc) in that unlike the aforementioned common formats, they are what is known as "Vector" formats rather than "Raster" formats. 
+
+Vector graphics are stored as mathematical expressions as opposed to Raster (bit mapped) graphics which are stored as a series of mapped 'dots', also known as pixels (Picture cells). While a bitmap image can be scaled, the only way to do so is to simply increase the size of each pixel. This results in the dreaded "fuzzyness" that anyone who has zoomed in or made any bitmap image larger has experienced. Vector graphics, on the other hand, are literally infinitely scalable, meaning that you can take a 50 "pixel" wide SVG, expand it to 5,000,000 "pixels" wide and lose exactly 0% of the detail. Furthermore, Vector graphics, are positively tiny compared to Raster graphics, since there is no need to contain the information for every single pixel, as they are basically fancy text documents. This means they can also be compressed very easily.
+
+Now, Vector graphics are not particularly suited for things like photographs of waterfalls or pretty butterflies, since the raw power needed to create such high complexity mathematical equations in a reasonable time (in other words, not 87 billion years) is still beyond us. However, where they excel are simple geometric shapes with smooth curves and gradients, which makes them perfect for MTG expansion symbols!
+***************************************************************************
+***************************************************************************
+BUT OH GREAT AND POWERFUL BACONCATBUG, I DUN KNOW HOW TO USE T3H SVG! WHAT DO?
+Throw a blanket over it!
+
+I mean, fear not humble denizen of the Intarwebs, I shall giev you the learnings! SVGs can be edited by a number of programs natively, or imported into the vast majority of Raster image editors. Inkscape is a free software vector graphics editor, licensed under the GNU General Public License. Its goal is to implement full support for the Scalable Vector Graphics 1.1 standard. Adobe Illustrator is the non-free Adobe product. 
+
+If you simply need to convert an SVG into a raster format for use elsewhere, you can simply open it with the GNU Image Manipulation Program (Humorously known as The GIMP ) and it will automatically import and convert it to whatever scale you desire.
+***************************************************************************
+***************************************************************************
+Files used to be marked with a + at the end of their 5 digit code if they were a"Fake" expansion symbols. That is, symbols created for sets that do not have one or differ from the real expansion symbol. However, there are a large number of these and it's pretty unfeasible, so just use your brains to work out which are fake and which aren't. :P
+
+Furthermore, some Operating Systems (Looking at you Winblows) have issues with paths that are overly long. As this megapack does have some substantial folder nesting, you might get an error when extracting them to an already deeply nested folder. If you do, try extracting it to the root of a hard drive temporarily.
+***************************************************************************
+***************************************************************************
+EXPLANATION OF THE DIFFERENT STYLES
+Accurate Style: Expansion symbols have the correct bordering style as was printed on the cards. This means, as a general rule, pre-eighth edition sets will have Uncommons and Rares with white borders, while post-eighth edition sets will have Uncommons and Rares with black borders.
+
+Modern Style: All set symbols follow the Modern format for borders. Uncommons and Rares will have black borders and Mythic Rares will have a white border around a black border.
+
+Pre-Eighth Style: All set symbols follow the pre-eighth format for borders. All rarities, including Mythic Rare, have a white border.
+***************************************************************************
+***************************************************************************
