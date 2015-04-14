@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="600"
+   height="600"
+   id="svg3292">
+  <defs
+     id="defs3294" />
+  <metadata
+     id="metadata3297">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-330.5769,32.500493)"
+     id="layer1">
+    <g
+       transform="matrix(6,0,0,6,4740.5769,1227.5115)"
+       id="g15">
+      <circle
+         cx="-685"
+         cy="-160.002"
+         r="50"
+         id="circle17"
+         style="fill:#cac5c0" />
+    </g>
+    <path
+       d="M 795.22917,388.1295 759.85339,507.51749 H 465.9072 V 481.9935 c 14.28021,-15.91201 45.57013,-48.00602 93.87614,-96.318 29.09418,-29.11199 57.8938,-59.83199 86.44181,-92.22599 14.26814,-15.906 25.26027,-29.65203 32.92239,-41.17198 17.01575,-24.68404 25.52966,-49.92002 25.52966,-75.744 0,-25.22404 -7.80604,-47.47203 -23.44798,-66.67201 -15.64194,-19.224006 -35.81996,-28.848003 -60.53977,-28.848003 -53.22588,0 -94.93828,35.988003 -125.12413,107.879983 l -26.37038,-9.88198 C 504.87735,78.037506 561.12125,27.517506 637.98164,27.517506 c 37.87749,0 70.12153,12.893992 96.74353,38.688016 26.63407,25.800028 39.93608,57.623978 39.93608,95.520018 0,48.31197 -27.70199,95.50796 -83.1481,141.60598 l -57.62374,47.73599 c -36.78616,30.76201 -67.27226,59.57404 -91.38652,86.47201 -1.67977,1.638 -4.95543,5.496 -9.88168,11.52599 h 153.12597 c 23.59191,0 41.44201,-4.65598 53.50769,-14.00998 10.41074,-8.23201 20.60429,-23.88002 30.4806,-46.92603 h 25.4937 z"
+       inkscape:connector-curvature="0"
+       id="path19"
+       style="fill:#0d0f0f" />
+  </g>
+</svg>

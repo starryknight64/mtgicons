@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="600"
+   height="600"
+   id="svg3624">
+  <defs
+     id="defs3626" />
+  <metadata
+     id="metadata3629">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-399.1484,149.64339)"
+     id="layer1">
+    <g
+       transform="matrix(6,0,0,6,2919.1484,1110.3686)"
+       id="g33">
+      <circle
+         cx="-370"
+         cy="-160.002"
+         r="50"
+         id="circle35"
+         style="fill:#cac5c0" />
+    </g>
+    <path
+       d="m 608.89064,-81.519289 h 173.64599 c 22.52399,0 35.92798,-2.700043 40.21795,-8.112003 h 24.93603 l -14.532,65.549985 H 621.27459 l -20.44798,94.734008 c 30.76197,-12.42002 58.00804,-18.624025 81.74997,-18.624025 46.37399,0 85.50001,15.52204 117.35402,46.548003 31.83002,31.026031 47.76601,69.731961 47.76601,116.141951 0,53.97605 -20.79001,97.422 -62.36403,130.33205 -38.30996,30.23398 -84.97199,45.31801 -140.02797,45.31801 -32.37001,0 -63.96003,-4.84801 -94.70999,-14.55604 l 9.702,-24.27603 c 25.92003,7.014 48.846,10.50602 68.81398,10.50602 39.924,0 74.86198,-13.07999 104.83801,-39.26401 29.93997,-26.14796 44.92802,-58.95598 44.92802,-98.35197 0,-33.99 -11.06403,-61.92001 -33.19802,-83.75398 -22.13403,-21.87601 -50.19002,-32.80799 -84.19803,-32.80799 -31.27795,0 -60.41997,10.8 -87.40798,32.37598 l -16.20599,-3.22799 51.02403,-218.531969 z"
+       inkscape:connector-curvature="0"
+       id="path37"
+       style="fill:#0d0f0f" />
+  </g>
+</svg>

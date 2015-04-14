@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="600"
+   height="600"
+   id="svg5391">
+  <defs
+     id="defs5393" />
+  <metadata
+     id="metadata5396">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-278.719,53.184841)"
+     id="layer1">
+    <circle
+       cx="-475.125"
+       cy="365.06799"
+       r="50"
+       transform="matrix(6,0,0,6,3429.469,-1943.5928)"
+       id="circle447"
+       style="fill:#c9c4be" />
+    <text
+       x="384.3978"
+       y="-118.20032"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)"
+       id="text2984"
+       xml:space="preserve"
+       style="font-size:464.12322998px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:MPlantin;-inkscape-font-specification:MPlantin"><tspan
+         x="384.3978"
+         y="-118.20032"
+         id="tspan2986">Q</tspan></text>
+  </g>
+</svg>
