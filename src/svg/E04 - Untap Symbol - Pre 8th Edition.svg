@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="600"
+   height="600"
+   id="svg5426">
+  <defs
+     id="defs5428" />
+  <metadata
+     id="metadata5431">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-664.86265,-98.942258)"
+     id="layer1">
+    <circle
+       cx="-369.99899"
+       cy="365.13901"
+       r="50"
+       transform="matrix(0,-6,-6,0,3155.6967,-1821.0517)"
+       id="circle457"
+       style="fill:#c9c4be" />
+    <path
+       d="m 698.49859,402.60812 c -19.43997,19.45197 -19.43997,50.98797 0,70.44597 l 192.25802,192.258 c 19.452,19.43399 51.00005,19.43399 70.45206,0 L 1231.2447,395.27011 c 19.4399,-19.458 19.4399,-51.00001 0,-70.44601 l -192.258,-192.258 c -19.452,-19.446 -50.98804,-19.446 -70.44005,0 L 698.49859,402.60812 z"
+       inkscape:connector-curvature="0"
+       id="path459"
+       style="fill:#ffffff" />
+    <path
+       d="m 917.62462,193.3521 0,216.03001 56.31002,-79.09801 c 23.32201,29.376 34.96796,63.38401 34.96796,101.90398 0,19.25403 -3.666,32.472 -11.01594,39.528 -7.36199,7.11602 -20.658,10.65601 -39.92401,10.65601 -53.23803,0 -110.04004,-27.372 -170.37603,-82.12799 l -63.13798,62.334 c 88.22997,72.54 167.08799,108.77398 236.56802,108.77398 41.55594,0 74.66994,-12.50399 99.27004,-37.614 24.5879,-25.08598 36.8759,-58.48197 36.8759,-100.00198 0,-50.718 -19.2779,-105.99 -57.7979,-165.858 l 79.0799,-46.356 -200.81998,-28.17 z"
+       inkscape:connector-curvature="0"
+       id="path461"
+       style="fill:#000000" />
+  </g>
+</svg>
