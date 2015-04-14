@@ -11,16 +11,18 @@ You can link directly to mtgicons by including the following file in your HTML <
 
 Then in your HTML file, use the following markup:
   
-  <!-- A white mana symbol -->
+	<!-- A white mana symbol -->
 	<i class="mtg mana-w"></i>
-  <!-- A 5 mana symbol -->
+	<!-- A 5 mana symbol -->
 	<i class="mtg mana-5"></i>
-  <!-- A white phyrexian mana symbol -->
+	<!-- A white phyrexian mana symbol -->
 	<i class="mtg phyrexian-w"></i>
-  <!-- A 2/g hybrid mana symbol -->
+	<!-- A 2/g hybrid mana symbol -->
 	<i class="mtg hybrid-2g"></i>
-  <!-- A tap symbol -->
+	<!-- A tap symbol -->
 	<i class="mtg tap"></i>
+	<!-- Dragons of Tarkir expansion symbol -->
+	<i class="mtg dragons-of-tarkir"></i>
 
 See https://cdn.rawgit.com/jninnes/mtgicons/master/demo/demo.html
 
