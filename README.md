@@ -7,7 +7,7 @@ An adaption of the mtg icons as a vector font for use in apps, websites, etc.
 
 You can link directly to mtgicons by including the following file in your HTML <head> tag.
 
-	<link rel="stylesheet" href="https://cdn.rawgit.com/jninnes/mtgicons/master/dist/mtgicons.css" />
+	<link rel="stylesheet" href="https://cdn.rawgit.com/jninnes/mtgicons/v1.1.1/dist/mtgicons.css" />
 
 Then in your HTML file, the following markup:
   
@@ -26,14 +26,14 @@ Then in your HTML file, the following markup:
 
 Produces the following output:
 
-<img src="https://cdn.rawgit.com/jninnes/mtgicons/master/src/svg/A01%20-%20Colored%20Mana%20-%20White.svg" height="30" width="30" />
-<img src="https://cdn.rawgit.com/jninnes/mtgicons/master/src/svg/B05%20-%20Colorless%20Mana%20-%20Five.svg" height="30" width="30" />
-<img src="https://cdn.rawgit.com/jninnes/mtgicons/master/src/svg/D01%20-%20Phyrexian%20Mana%20-%20White.svg" height="30" width="30" />
-<img src="https://cdn.rawgit.com/jninnes/mtgicons/master/src/svg/C07%20-%20Hybrid%20Mana%20-%20Red%20or%20Green.svg" height="30" width="30" />
-<img src="https://cdn.rawgit.com/jninnes/mtgicons/master/src/svg/E05%20-%20Tap%20Symbol%20-%20Post%208th%20Edition.svg" height="30" width="30" />
-<img src="https://cdn.rawgit.com/jninnes/mtgicons/master/src/svg/B2109%20-%20Dragons%20of%20Tarkir%20-%20Common.svg" height="35" width="35">
+<img src="https://cdn.rawgit.com/jninnes/mtgicons/v1.1.1/src/svg/A01%20-%20Colored%20Mana%20-%20White.svg" height="30" width="30" />
+<img src="https://cdn.rawgit.com/jninnes/mtgicons/v1.1.1/src/svg/B05%20-%20Colorless%20Mana%20-%20Five.svg" height="30" width="30" />
+<img src="https://cdn.rawgit.com/jninnes/mtgicons/v1.1.1/src/svg/D01%20-%20Phyrexian%20Mana%20-%20White.svg" height="30" width="30" />
+<img src="https://cdn.rawgit.com/jninnes/mtgicons/v1.1.1/src/svg/C07%20-%20Hybrid%20Mana%20-%20Red%20or%20Green.svg" height="30" width="30" />
+<img src="https://cdn.rawgit.com/jninnes/mtgicons/v1.1.1/src/svg/E05%20-%20Tap%20Symbol%20-%20Post%208th%20Edition.svg" height="30" width="30" />
+<img src="https://cdn.rawgit.com/jninnes/mtgicons/v1.1.1/src/svg/B2109%20-%20Dragons%20of%20Tarkir%20-%20Common.svg" height="35" width="35">
 
-See https://cdn.rawgit.com/jninnes/mtgicons/master/demo/demo.html for the complete list of available icons!
+See https://cdn.rawgit.com/jninnes/mtgicons/v1.1.1/demo/demo.html for the complete list of available icons!
 
 # Building from source
 
