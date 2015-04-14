@@ -5,7 +5,7 @@ An adaption of the mtg icons as a vector font for use in apps, websites, etc.
 
 # Usage
 
-You can link directly to mtgicons by including the following file in your HTML <head> tag.
+You can link directly to mtgicons by including the following file in your HTML &lt;head&gt; tag.
 
 	<link rel="stylesheet" href="https://cdn.rawgit.com/jninnes/mtgicons/v1.1.1/dist/mtgicons.css" />
 
@@ -32,6 +32,13 @@ Produces the following output:
 <img src="https://rawgit.com/jninnes/mtgicons/v1.1.1/src/svg/C07%20-%20Hybrid%20Mana%20-%20Red%20or%20Green.svg" height="30" width="30" />
 <img src="https://rawgit.com/jninnes/mtgicons/v1.1.1/src/svg/E05%20-%20Tap%20Symbol%20-%20Post%208th%20Edition.svg" height="30" width="30" />
 <img src="https://rawgit.com/jninnes/mtgicons/v1.1.1/src/svg/B2109%20-%20Dragons%20of%20Tarkir%20-%20Common.svg" height="35" width="35">
+
+Add a rarity overlay to an expansion icon like so:
+
+	<!-- Dragons of Tarkir expansion symbol, uncommon -->
+	<i class="mtg dragons-of-tarkir uncommon"></i>
+	<i class="mtg dragons-of-tarkir rare"></i>
+	<i class="mtg dragons-of-tarkir mythic"></i>
 
 See https://cdn.rawgit.com/jninnes/mtgicons/v1.1.1/demo/demo.html for the complete list of available icons!
 
