@@ -2,6 +2,8 @@
 
 An adaption of the mtg icons as a vector font for use in apps, websites, etc. 
 
+- All of the icons are contained within two files, which results in better performance for your site.
+- The icons scale to any size, which is perfect for displaying on mobile, tablet and desktop.
 
 # Usage
 
