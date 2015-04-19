@@ -1,6 +1,6 @@
 {
   "name": "mtgicons",
-  "version": "v1.1.1",
+  "version": "v1.1.2",
   "authors": [
     "Jeremy Ninnes"
   ],
@@ -9,6 +9,5 @@
     "icons",
     "mtg"
   ],
-  "license": "BSD",
-  "private": true
+  "license": "BSD"
 }
