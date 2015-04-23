@@ -1816,35 +1816,6 @@ i {
 	color: rgb(0, 0, 0);
 }
 
-.D0601-Starter1999-Common .path1:before {
-	content: "\e763";
-	color: rgb(255, 255, 255);
-}
-.D0601-Starter1999-Common .path2:before {
-	content: "\e764";
-	margin-left: -0.958984375em;
-	color: rgb(0, 0, 0);
-}
-
-.D0701-Starter2000-Common .path1:before {
-	content: "\e765";
-	color: rgb(255, 255, 255);
-}
-.D0701-Starter2000-Common .path2:before {
-	content: "\e766";
-	margin-left: -0.958984375em;
-	color: rgb(0, 0, 0);
-}
-
-.D0801-ModernMasters-Common .path1:before {
-	content: "\e767";
-	color: rgb(255, 255, 255);
-}
-.D0801-ModernMasters-Common .path2:before {
-	content: "\e768";
-	margin-left: -1.2294921875em;
-	color: rgb(0, 0, 0);
-}
 
 .E0101-Portal-Common .path1:before {
 	content: "\e769";
