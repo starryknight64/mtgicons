@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?z9pvjz');
-	src:url('fonts/icomoon.eot?#iefixz9pvjz') format('embedded-opentype'),
-		url('fonts/icomoon.woff?z9pvjz') format('woff'),
-		url('fonts/icomoon.ttf?z9pvjz') format('truetype'),
-		url('fonts/icomoon.svg?z9pvjz#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?zcs0g9');
+	src:url('fonts/icomoon.eot?#iefixzcs0g9') format('embedded-opentype'),
+		url('fonts/icomoon.woff?zcs0g9') format('woff'),
+		url('fonts/icomoon.ttf?zcs0g9') format('truetype'),
+		url('fonts/icomoon.svg?zcs0g9#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -786,6 +786,16 @@ i {
 	color: rgb(13, 15, 15);
 }
 
+.magic-origins .path1:before {
+	content: "\e7d5";
+	color: rgb(255, 255, 255);
+}
+.magic-origins .path2:before {
+	content: "\e7d6";
+	margin-left: -1.0947265625em;
+	color: rgb(35, 31, 32);
+}
+
 .B2109-DragonsofTarkir-Common .path1:before {
 	content: "\e620";
 	color: rgb(255, 255, 255);
@@ -859,7 +869,7 @@ i {
 	content: "\e6a5";
 	margin-left: -1.875em;
 	color: rgb(255, 255, 255);
-}	
+}
 
 .B0304-Visions-Common .path1:before {
 	content: "\e6a6";
@@ -1806,35 +1816,6 @@ i {
 	color: rgb(0, 0, 0);
 }
 
-.D0601-Starter1999-Common .path1:before {
-	content: "\e763";
-	color: rgb(255, 255, 255);
-}
-.D0601-Starter1999-Common .path2:before {
-	content: "\e764";
-	margin-left: -0.958984375em;
-	color: rgb(0, 0, 0);
-}
-
-.D0701-Starter2000-Common .path1:before {
-	content: "\e765";
-	color: rgb(255, 255, 255);
-}
-.D0701-Starter2000-Common .path2:before {
-	content: "\e766";
-	margin-left: -0.958984375em;
-	color: rgb(0, 0, 0);
-}
-
-.D0801-ModernMasters-Common .path1:before {
-	content: "\e767";
-	color: rgb(255, 255, 255);
-}
-.D0801-ModernMasters-Common .path2:before {
-	content: "\e768";
-	margin-left: -1.2294921875em;
-	color: rgb(0, 0, 0);
-}
 
 .E0101-Portal-Common .path1:before {
 	content: "\e769";

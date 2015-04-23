@@ -2,14 +2,14 @@
 
 An adaption of the mtg icons as a vector font for use in apps, websites, etc. 
 
-- All of the i cons are contained within two files, which results in better performance for your site.
+- All of the icons are contained within two files, which results in better performance for your site.
 - The icons scale to any size, which is perfect for displaying on mobile, tablet and desktop.
 
 # Usage
 
 You can link directly to mtgicons by including the following file in your HTML &lt;head&gt; tag.
 
-	<link rel="stylesheet" href="https://cdn.rawgit.com/jninnes/mtgicons/v1.1.2/dist/mtgicons.css" />
+	<link rel="stylesheet" href="https://cdn.rawgit.com/jninnes/mtgicons/v1.1.3/dist/mtgicons.css" />
 
 Then in your HTML file, the following markup:
   
@@ -28,12 +28,12 @@ Then in your HTML file, the following markup:
 
 Produces the following output:
 
-<img src="https://rawgit.com/jninnes/mtgicons/v1.1.2/src/svg/A01%20-%20Colored%20Mana%20-%20White.svg" height="30" width="30" />
-<img src="https://rawgit.com/jninnes/mtgicons/v1.1.2/src/svg/B05%20-%20Colorless%20Mana%20-%20Five.svg" height="30" width="30" />
-<img src="https://rawgit.com/jninnes/mtgicons/v1.1.2/src/svg/D01%20-%20Phyrexian%20Mana%20-%20White.svg" height="30" width="30" />
-<img src="https://rawgit.com/jninnes/mtgicons/v1.1.2/src/svg/C07%20-%20Hybrid%20Mana%20-%20Red%20or%20Green.svg" height="30" width="30" />
-<img src="https://rawgit.com/jninnes/mtgicons/v1.1.2/src/svg/E05%20-%20Tap%20Symbol%20-%20Post%208th%20Edition.svg" height="30" width="30" />
-<img src="https://rawgit.com/jninnes/mtgicons/v1.1.2/src/svg/B2109%20-%20Dragons%20of%20Tarkir%20-%20Common.svg" height="35" width="35">
+<img src="https://rawgit.com/jninnes/mtgicons/v1.1.3/src/svg/A01%20-%20Colored%20Mana%20-%20White.svg" height="30" width="30" />
+<img src="https://rawgit.com/jninnes/mtgicons/v1.1.3/src/svg/B05%20-%20Colorless%20Mana%20-%20Five.svg" height="30" width="30" />
+<img src="https://rawgit.com/jninnes/mtgicons/v1.1.3/src/svg/D01%20-%20Phyrexian%20Mana%20-%20White.svg" height="30" width="30" />
+<img src="https://rawgit.com/jninnes/mtgicons/v1.1.3/src/svg/C07%20-%20Hybrid%20Mana%20-%20Red%20or%20Green.svg" height="30" width="30" />
+<img src="https://rawgit.com/jninnes/mtgicons/v1.1.3/src/svg/E05%20-%20Tap%20Symbol%20-%20Post%208th%20Edition.svg" height="30" width="30" />
+<img src="https://rawgit.com/jninnes/mtgicons/v1.1.3/src/svg/B2109%20-%20Dragons%20of%20Tarkir%20-%20Common.svg" height="35" width="35">
 
 Add a rarity overlay to an expansion icon like so:
 
@@ -42,7 +42,7 @@ Add a rarity overlay to an expansion icon like so:
 	<i class="mtg dragons-of-tarkir rare"></i>
 	<i class="mtg dragons-of-tarkir mythic"></i>
 
-See https://cdn.rawgit.com/jninnes/mtgicons/v1.1.2/demo/demo.html for the complete list of available icons!
+See https://cdn.rawgit.com/jninnes/mtgicons/v1.1.3/demo/demo.html for the complete list of available icons!
 
 # Building from source
 
