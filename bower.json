@@ -9,5 +9,6 @@
     "icons",
     "mtg"
   ],
+  "ignore": [],
   "license": "BSD"
 }

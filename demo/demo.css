@@ -18,6 +18,9 @@ h1 {
 	padding-bottom: .75em;
 
 }
+footer {
+  min-height:100px;
+}
 h1 i {
 	font-size:0.6em;
 }
