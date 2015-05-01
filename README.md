@@ -56,6 +56,9 @@ Requires Node.js, uses NPM to run the build
 	// run the build, and rebuild less files on change
 	npm run watch:less
 
+	// testing using backstop JS is under development, but can be run with
+	npm run test
+
 # Contributions
 
 Many thanks to 
