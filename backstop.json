@@ -1,0 +1,35 @@
+{
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1280,
+      "height": 768
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Demo",
+      "url": "file:///C:/Users/Name/work/mtgicons/demo/demo.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "div.icondemo"
+      ],
+      "readyEvent": null,
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Issue#12",
+      "url": "file:///C:/Users/Name/work/mtgicons/test/issue12.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "body"
+      ],
+      "readyEvent": null,
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    }
+  ]
+}
