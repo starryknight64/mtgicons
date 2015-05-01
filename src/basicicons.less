@@ -428,281 +428,126 @@
   color: @mana-font-black;
 }
 
-
+.hybrid {
+  border-radius:1em;
+  padding-right:1em;
+  position: relative;
+  &:before {
+    content: "\e618";
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  &:after {
+    letter-spacing:-1em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: @mana-font-black;
+  }
+}
 
 .hybrid-wu {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-white;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-blue;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e603\e602";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-blue; }
+  &:after { content: "\e603\e602"; }
 }
-
-
 
 .hybrid-wb {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-white;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-black;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e603\e60f";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-black; }
+  &:after { content: "\e603\e60f"; }
 }
-
 
 .hybrid-ub {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-blue;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-black;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e60e\e60f";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-black; }
+  &:after { content: "\e60e\e60f"; }
 }
-
 
 .hybrid-ur {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-blue;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-red;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e60e\e612";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-red; }
+  &:after { content: "\e60e\e612"; }
 }
-
 
 .hybrid-br {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-black;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-red;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e617\e612";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-red; }
+  &:after { content: "\e617\e612"; }
 }
-
 
 .hybrid-bg {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-black;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-green;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e617\e63b";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-green; }
+  &:after { content: "\e617\e63b"; }
 }
-
 
 .hybrid-rg {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-red;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-green;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e63f\e63b";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-green; }
+  &:after { content: "\e63f\e63b"; }
 }
-
 
 .hybrid-rw {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-red;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-white;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e63f\e642";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-white; }
+  &:after { content: "\e63f\e642"; }
 }
-
 
 .hybrid-gw {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-green;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-white;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e643\e642";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-white; }
+  &:after { content: "\e643\e642"; }
 }
 
-
 .hybrid-gu {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-green;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-blue;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e643\e602";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-blue; }
+  &:after { content: "\e643\e602"; }
 }
 
 .hybrid-2w {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-colorless;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-white;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e652\e642";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-white; }
+  &:after { content: "\e652\e642"; }
 }
+
 .hybrid-2u {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-colorless;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-blue;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e652\e602";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-blue; }
+  &:after { content: "\e652\e602"; }
 }
+
 .hybrid-2b {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-colorless;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-black;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e652\e60f";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-black; }
+  &:after { content: "\e652\e60f"; }
 }
 
 .hybrid-2r {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-colorless;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: @mana-red;
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e652\e612";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-red; }
+  &:after { content: "\e652\e612"; }
 }
+
 .hybrid-2g {
-  border-radius:1em;
+  &:extend(.hybrid all);
   background-color: @mana-colorless;
-  padding-right:1em;
-  &:before {
-    content: "\e618";
-    margin-left: 0;
-    color: rgb(163, 192, 149);
-  }
-  &:after {
-    letter-spacing:-1em;
-    margin-left: -1.5em;
-    content: "\e652\e63b";
-    color: @mana-font-black;
-  }
-  
+  &:before { color: @mana-green; }
+  &:after { content: "\e652\e63b"; }
 }
